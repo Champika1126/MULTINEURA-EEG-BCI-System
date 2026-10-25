@@ -52,17 +52,13 @@ The headband acts as the central interface, while application-specific hardware 
                                       Integrations
 
 ## Repository structure
-
-```text
 MULTINEURA-EEG-BCI-System/
+│
 ├── README.md
-├── LICENSE
+├── banner.png
 ├── .gitignore
-├── model/
-│   └── MULTINEURA_Build_R2018.m
-└── docs/
-    └── DEVELOPMENT_ROADMAP.md
-```
+├── MULTINEURA_Build_R2018.m
+└── DEVELOPMENT_ROADMAP.md
 
 ## Requirements
 
