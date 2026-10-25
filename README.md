@@ -86,6 +86,17 @@ See [`docs/DEVELOPMENT_ROADMAP.md`](docs/DEVELOPMENT_ROADMAP.md) for planned wor
 
 For suggestions, open a GitHub Issue. Clearly distinguish simulated results from experiments using real EEG data.
 
-## License
 
-MIT License. See [`LICENSE`](LICENSE).
+## Copyright and Intellectual Property Notice
+
+© 2026 MULTINEURA Project. All Rights Reserved.
+
+MULTINEURA is an original project concept and ongoing development initiative.
+
+This repository is published solely for viewing, academic evaluation, demonstration and informational purposes.
+
+No permission is granted to copy, reproduce, modify, distribute, commercially exploit or develop derivative works from the project's original materials without prior written permission from the project owner.
+
+Viewing this repository does not grant any ownership or intellectual property rights.
+
+For permission or collaboration enquiries, please contact the project owner.
