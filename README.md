@@ -51,6 +51,14 @@ The headband acts as the central interface, while application-specific hardware 
      Smart Lock    Emergency Alert   Future
                                       Integrations
 
+## System Architecture
+
+The following diagram illustrates the proposed MULTINEURA
+architecture, from EEG acquisition to integration with
+multiple external applications.
+
+![MULTINEURA System Architecture](architecture.png)
+
 ## Repository structure
 MULTINEURA-EEG-BCI-System/
 │
