@@ -22,16 +22,34 @@ The headband acts as the central interface, while application-specific hardware 
 
 ## Architecture
 
-```text
-EEG Input
-  -> Signal Conditioning
-  -> P300 Event / Epoch Processing (real EEG stage planned)
-  -> Feature Extraction
-  -> Classifier (trained LDA integration planned)
-  -> Command Decision
-       |-> Smart Lock (ESP32 + servo)
-       |-> Emergency Alert (ESP32 + buzzer / notification)
-```
+              MULTINEURA EEG HEADBAND
+                         |
+                         v
+                 EEG Signal Acquisition
+                         |
+                         v
+                  Signal Conditioning
+                         |
+                         v
+                 Feature Extraction
+                         |
+                         v
+                Intent Classification
+                         |
+                         v
+                  Command Generation
+                         |
+                         v
+               APPLICATION INTERFACE
+                         |
+          +--------------+--------------+
+          |              |              |
+          v              v              v
+     Application 1  Application 2  Application 3
+          |              |              |
+          v              v              v
+     Smart Lock    Emergency Alert   Future
+                                      Integrations
 
 ## Repository structure
 
