@@ -1,6 +1,6 @@
 # MULTINEURA – EEG-Based Brain–Computer Interface (BCI)
 
-MULTINEURA is a prototype concept exploring how EEG signals can be processed into commands for assistive and security-related applications.
+MULTINEURA is a prototype concept exploring how EEG signals can be processed into commands for real time day-to-day life applications like smart security systems & assistive emergency alerts. It is a neural powered headband that is used for multipurpose applications.
 
 **Current status:** This repository contains a MATLAB/Simulink R2018 model-builder script using synthetic EEG-like signals and demonstration decision logic. It is not a validated P300 detector, clinical device, or operational security/emergency system.
 
